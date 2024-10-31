@@ -1,0 +1,22 @@
+{
+  "name": "invoicejapan",
+  "version": "1.1.8",
+  "description": "PDF Invoice Japan for WooCommerce",
+  "main": "invoicejapan-admin.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build:invoicejapan-admin": "wp-scripts build src/invoicejapan-admin --output-path=dist",
+    "build:invoicejapan-resending": "wp-scripts build src/invoicejapan-resending --output-path=dist/resending",
+    "lint-js": "wp-scripts lint-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsushi Kawamori",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "27.8.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.54.0",
+    "react-numeric-input": "^2.2.3"
+  }
+}

@@ -1,0 +1,32 @@
+#invoicejapanadmin {
+}
+.boxRowContainer {
+	display: flex;
+	align-items: center;
+	margin-bottom: calc(8px);
+}
+div.components-base-control {
+	margin-bottom: 0;
+}
+div.components-base-control__field {
+	display: flex;
+	margin-bottom: 0 !important;
+}
+div.components-v-stack {
+	flex-direction: row !important;
+}
+div.components-radio-control__option {
+	padding-right: calc(16px);
+}
+table {
+	border-collapse: collapse;
+}
+.components-checkbox-control__input[type="checkbox"] {
+	margin-left: 25px !important;
+}
+.components-checkbox-control__checked {
+	margin-left: 25px !important;
+}
+.aStyle {
+	text-decoration: none;
+}
